@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using MassTransit;
+using Microsoft.AspNetCore.Mvc;
+using Play.Catalog.Contracts;
 using Play.Common.Repository;
 using PlayCatalog.Service.Dtos;
 using PlayCatalog.Service.Entities;
@@ -15,10 +17,12 @@ namespace PlayCatalog.Service.Controllers
     public class ItemsController : ControllerBase
     {
         private readonly IRepository<Item> itemsRepository;
+        private readonly IPublishEndpoint publishEndpoint;
 
-        public ItemsController(IRepository<Item> itemsRepository)
+        public ItemsController(IRepository<Item> itemsRepository, IPublishEndpoint publishEndpoint)
         {
             this.itemsRepository = itemsRepository;
+            this.publishEndpoint = publishEndpoint;
         }
 
         [HttpGet]
@@ -52,6 +56,8 @@ namespace PlayCatalog.Service.Controllers
 
             await itemsRepository.CreateAsync(item);
 
+            await publishEndpoint.Publish(new CatalogItemCreated(item.Id, item.Name, item.Description));
+
             /*
                 With CreatedAtAction, in the headers field, we will have a location attribute that will give us the path/url to find the item
              */
@@ -74,6 +80,8 @@ namespace PlayCatalog.Service.Controllers
 
             await itemsRepository.UpdateAsync(existingItem);
 
+            await publishEndpoint.Publish(new CatalogItemUpdated(existingItem.Id, existingItem.Name, existingItem.Description));
+
             return NoContent();
         }
 
@@ -88,6 +96,8 @@ namespace PlayCatalog.Service.Controllers
             }
 
             await itemsRepository.RemoveAsync(item.Id);
+
+            await publishEndpoint.Publish(new CatalogItemDeleted(item.Id));
 
             return NoContent();
         }
