@@ -13,11 +13,17 @@ C:\Users\Rafael\Documents\Projects\DotnetMicroservices\Play.Catalog\src\PlayCata
 C:\Users\Rafael\Documents\Projects\DotnetMicroservices\Play.Catalog\src\PlayCatalog.Service\PlayCatalog.Service\bin\Debug\net5.0\MassTransit.AspNetCoreIntegration.dll
 C:\Users\Rafael\Documents\Projects\DotnetMicroservices\Play.Catalog\src\PlayCatalog.Service\PlayCatalog.Service\bin\Debug\net5.0\MassTransit.ExtensionsDependencyInjectionIntegration.dll
 C:\Users\Rafael\Documents\Projects\DotnetMicroservices\Play.Catalog\src\PlayCatalog.Service\PlayCatalog.Service\bin\Debug\net5.0\MassTransit.RabbitMqTransport.dll
+C:\Users\Rafael\Documents\Projects\DotnetMicroservices\Play.Catalog\src\PlayCatalog.Service\PlayCatalog.Service\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Rafael\Documents\Projects\DotnetMicroservices\Play.Catalog\src\PlayCatalog.Service\PlayCatalog.Service\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Rafael\Documents\Projects\DotnetMicroservices\Play.Catalog\src\PlayCatalog.Service\PlayCatalog.Service\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
 C:\Users\Rafael\Documents\Projects\DotnetMicroservices\Play.Catalog\src\PlayCatalog.Service\PlayCatalog.Service\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\Rafael\Documents\Projects\DotnetMicroservices\Play.Catalog\src\PlayCatalog.Service\PlayCatalog.Service\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Rafael\Documents\Projects\DotnetMicroservices\Play.Catalog\src\PlayCatalog.Service\PlayCatalog.Service\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Rafael\Documents\Projects\DotnetMicroservices\Play.Catalog\src\PlayCatalog.Service\PlayCatalog.Service\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Rafael\Documents\Projects\DotnetMicroservices\Play.Catalog\src\PlayCatalog.Service\PlayCatalog.Service\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Rafael\Documents\Projects\DotnetMicroservices\Play.Catalog\src\PlayCatalog.Service\PlayCatalog.Service\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Rafael\Documents\Projects\DotnetMicroservices\Play.Catalog\src\PlayCatalog.Service\PlayCatalog.Service\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Rafael\Documents\Projects\DotnetMicroservices\Play.Catalog\src\PlayCatalog.Service\PlayCatalog.Service\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Rafael\Documents\Projects\DotnetMicroservices\Play.Catalog\src\PlayCatalog.Service\PlayCatalog.Service\bin\Debug\net5.0\Microsoft.OpenApi.dll
 C:\Users\Rafael\Documents\Projects\DotnetMicroservices\Play.Catalog\src\PlayCatalog.Service\PlayCatalog.Service\bin\Debug\net5.0\MongoDB.Bson.dll
 C:\Users\Rafael\Documents\Projects\DotnetMicroservices\Play.Catalog\src\PlayCatalog.Service\PlayCatalog.Service\bin\Debug\net5.0\MongoDB.Driver.dll
@@ -33,6 +39,7 @@ C:\Users\Rafael\Documents\Projects\DotnetMicroservices\Play.Catalog\src\PlayCata
 C:\Users\Rafael\Documents\Projects\DotnetMicroservices\Play.Catalog\src\PlayCatalog.Service\PlayCatalog.Service\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Rafael\Documents\Projects\DotnetMicroservices\Play.Catalog\src\PlayCatalog.Service\PlayCatalog.Service\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Rafael\Documents\Projects\DotnetMicroservices\Play.Catalog\src\PlayCatalog.Service\PlayCatalog.Service\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Rafael\Documents\Projects\DotnetMicroservices\Play.Catalog\src\PlayCatalog.Service\PlayCatalog.Service\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\Rafael\Documents\Projects\DotnetMicroservices\Play.Catalog\src\PlayCatalog.Service\PlayCatalog.Service\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\Rafael\Documents\Projects\DotnetMicroservices\Play.Catalog\src\PlayCatalog.Service\PlayCatalog.Service\bin\Debug\net5.0\System.Text.Json.dll
 C:\Users\Rafael\Documents\Projects\DotnetMicroservices\Play.Catalog\src\PlayCatalog.Service\PlayCatalog.Service\bin\Debug\net5.0\ZstdSharp.dll

@@ -1,11 +1,14 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using Play.Common.Identity;
 using Play.Common.MassTransit;
 using Play.Common.MongoDB;
+using Play.Common.Settings;
 using PlayCatalog.Service.Entities;
 
 namespace PlayCatalog.Service
@@ -22,9 +25,13 @@ namespace PlayCatalog.Service
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            var serviceSettings = Configuration.GetSection(nameof(ServiceSettings)).Get<ServiceSettings>();
             services
                 .AddMongo()
                 .AddMongoRepository<Item>("items");
+
+            services
+                .AddJwtBearerAuthentication();
 
             services
                 .AddMassTransitWithRabbitMq();
@@ -63,6 +70,8 @@ namespace PlayCatalog.Service
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseAuthentication();
 
             app.UseAuthorization();
 
