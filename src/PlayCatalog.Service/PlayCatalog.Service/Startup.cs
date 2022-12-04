@@ -36,6 +36,29 @@ namespace PlayCatalog.Service
             services
                 .AddMassTransitWithRabbitMq();
 
+
+            /*
+                Add authorization based on claims
+             */
+            services.AddAuthorization(options =>
+            {
+                /*
+                    What this means is that, whenever we specify that we must use the Read policy, the token must have the admin role and have read access or full access
+                    It's not enough to have only one the conditions fulfilled, you must have all of them
+                 */
+                options.AddPolicy(Policies.Policies.Read, policy =>
+                {
+                    policy.RequireRole("Admin");
+                    policy.RequireClaim("scope", "catalog.readaccess", "catalog.fullaccess");
+                });
+
+                options.AddPolicy(Policies.Policies.Write, policy =>
+                {
+                    policy.RequireRole("Admin");
+                    policy.RequireClaim("scope", "catalog.writeaccess", "catalog.fullaccess");
+                });
+            });
+
             services.AddControllers(options =>
             {
                 options.SuppressAsyncSuffixInActionNames = false;

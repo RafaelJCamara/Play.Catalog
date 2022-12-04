@@ -15,7 +15,8 @@ namespace PlayCatalog.Service.Controllers
 {
     [ApiController]
     [Route("items")]
-    [Authorize]
+    ////by specifying the role here, we are saying that only tokens that contain the role claim with value admin are going to be granted access
+    //[Authorize(Roles = "Admin")]
     public class ItemsController : ControllerBase
     {
         private readonly IRepository<Item> itemsRepository;
@@ -28,12 +29,17 @@ namespace PlayCatalog.Service.Controllers
         }
 
         [HttpGet]
+        /*
+            This means that a token must comply with the Read policy, defined in the startup class
+         */
+        [Authorize(Policies.Policies.Read)]
         public async Task<IEnumerable<ItemDto>> Get()
         {
             return (await itemsRepository.GetAllAsync()).Select(element => element.AsDto());
         }
 
         [HttpGet("{id}")]
+        [Authorize(Policies.Policies.Read)]
         public async Task<ActionResult<ItemDto>> GetById(Guid id)
         {
             var existingItem = await itemsRepository.GetAsync(id);
@@ -45,6 +51,7 @@ namespace PlayCatalog.Service.Controllers
         }
 
         [HttpPost]
+        [Authorize(Policies.Policies.Write)]
         public async Task<ActionResult<ItemDto>> Post(CreateItemDto createItemDto)
         {
             var item = new Item
@@ -67,6 +74,7 @@ namespace PlayCatalog.Service.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize(Policies.Policies.Write)]
         public async Task<IActionResult> Put(Guid id, UpdateItemDto updateItemDto)
         {
             var existingItem = await itemsRepository.GetAsync(id);
@@ -88,6 +96,7 @@ namespace PlayCatalog.Service.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Policies.Policies.Write)]
         public async Task<IActionResult> Delete(Guid id)
         {
             var item = await itemsRepository.GetAsync(id);
