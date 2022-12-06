@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Users\\Rafael\\Documents\\Projects\\DotnetMicroservices\\Play.Catalog\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj": {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "restore": {
         "projectUniqueName": "C:\\Users\\Rafael\\Documents\\Projects\\DotnetMicroservices\\Play.Catalog\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj",
         "projectName": "Play.Catalog.Contracts",
