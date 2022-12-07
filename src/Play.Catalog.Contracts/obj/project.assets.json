@@ -11,7 +11,7 @@
     "C:\\Users\\Rafael\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.0.1",
+    "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\Rafael\\Documents\\Projects\\DotnetMicroservices\\Play.Catalog\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj",
       "projectName": "Play.Catalog.Contracts",

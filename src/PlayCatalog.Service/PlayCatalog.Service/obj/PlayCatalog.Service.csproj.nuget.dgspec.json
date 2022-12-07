@@ -102,7 +102,7 @@
           "dependencies": {
             "Play.Common": {
               "target": "Package",
-              "version": "[1.0.4, )"
+              "version": "[1.0.5, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
