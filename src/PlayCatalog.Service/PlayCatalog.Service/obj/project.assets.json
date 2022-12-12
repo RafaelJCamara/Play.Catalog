@@ -499,7 +499,7 @@
           "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {}
         }
       },
-      "Play.Common/1.0.5": {
+      "Play.Common/1.0.6": {
         "type": "package",
         "dependencies": {
           "MassTransit.AspNetCore": "7.3.1",
@@ -1561,14 +1561,14 @@
         "newtonsoft.json.bson.nuspec"
       ]
     },
-    "Play.Common/1.0.5": {
-      "sha512": "knmurcon+j3TRvcapwYC9ZcvV2vnLsRHm9HySL+Lersx93v+1rHSWXthbsKlGGoJKQbQlOAixgV0MeWd/4HQQA==",
+    "Play.Common/1.0.6": {
+      "sha512": "ooSB5Ozpx53i3ui7WGthDZ5WfFudNVDj+fuHaGZutJ0NUbWaGperp7gzBj95P0SkxzKVG7yIoVksKjVlJ66sGQ==",
       "type": "package",
-      "path": "play.common/1.0.5",
+      "path": "play.common/1.0.6",
       "files": [
         ".nupkg.metadata",
         "lib/net5.0/Play.Common.dll",
-        "play.common.1.0.5.nupkg.sha512",
+        "play.common.1.0.6.nupkg.sha512",
         "play.common.nuspec"
       ]
     },
@@ -2205,7 +2205,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "Play.Catalog.Contracts >= 1.0.0",
-      "Play.Common >= 1.0.5",
+      "Play.Common >= 1.0.6",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
@@ -2230,8 +2230,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Users\\Rafael\\Documents\\Projects\\DotnetMicroservices\\packages": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.pkg.github.com/RafaelJCamara/index.json": {}
       },
       "frameworks": {
         "net5.0": {
@@ -2255,7 +2255,7 @@
         "dependencies": {
           "Play.Common": {
             "target": "Package",
-            "version": "[1.0.5, )"
+            "version": "[1.0.6, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",

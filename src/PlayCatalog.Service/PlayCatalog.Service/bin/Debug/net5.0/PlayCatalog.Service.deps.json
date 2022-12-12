@@ -34,7 +34,7 @@
       "PlayCatalog.Service/1.0.0": {
         "dependencies": {
           "Play.Catalog.Contracts": "1.0.0",
-          "Play.Common": "1.0.4",
+          "Play.Common": "1.0.6",
           "Swashbuckle.AspNetCore": "5.6.3",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
@@ -759,7 +759,7 @@
           "lib/netstandard2.0/Newtonsoft.Json.Bson.dll": {}
         }
       },
-      "Play.Common/1.0.4": {
+      "Play.Common/1.0.6": {
         "dependencies": {
           "MassTransit.AspNetCore": "7.3.1",
           "MassTransit.RabbitMQ": "7.3.1",
@@ -2870,12 +2870,12 @@
       "path": "newtonsoft.json.bson/1.0.2",
       "hashPath": "newtonsoft.json.bson.1.0.2.nupkg.sha512"
     },
-    "Play.Common/1.0.4": {
+    "Play.Common/1.0.6": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-rBBIkLWWILXmF0Qo4OjTcahlmY6QORllg6iPiryc+d4z9C27m+9boVT2SxunIkHPIkyw61zPqkdnOO0Sajc+hQ==",
-      "path": "play.common/1.0.4",
-      "hashPath": "play.common.1.0.4.nupkg.sha512"
+      "sha512": "sha512-ooSB5Ozpx53i3ui7WGthDZ5WfFudNVDj+fuHaGZutJ0NUbWaGperp7gzBj95P0SkxzKVG7yIoVksKjVlJ66sGQ==",
+      "path": "play.common/1.0.6",
+      "hashPath": "play.common.1.0.6.nupkg.sha512"
     },
     "RabbitMQ.Client/6.2.2": {
       "type": "package",
