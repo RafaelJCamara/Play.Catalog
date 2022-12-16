@@ -1,7 +1,7 @@
 # Play.Catalog
-Catalog service used by Play Economy services.
+Catalog microservice.
 
-## Create and publish Catalog.Contracts package
+## Create and publish Catalog.Contracts NuGet package
 ```powershell
 $version="1.0.3"
 $owner="RafaelJCamara"
