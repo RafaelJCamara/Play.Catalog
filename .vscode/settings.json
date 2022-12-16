@@ -1,0 +1,8 @@
+{
+  "omnisharp.analyzeOpenDocumentsOnly": true,
+  "omnisharp.enableRoslynAnalyzers": true,
+  "omnisharp.enableImportCompletion": true,
+  "omnisharp.enableAsyncCompletion": true,
+  "omnisharp.organizeImportsOnFormat": true,
+  "omnisharp.enableMsBuildLoadProjectsOnDemand": true
+}

@@ -34,7 +34,7 @@ namespace PlayCatalog.Service
                 .AddJwtBearerAuthentication();
 
             services
-                .AddMassTransitWithRabbitMq();
+                .AddMassTransitWithessageBroker(Configuration);
 
 
             /*

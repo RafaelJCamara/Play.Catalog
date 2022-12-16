@@ -14,7 +14,7 @@ dotnet nuget push ..\packages\Play.Catalog.Contracts.$version.nupkg --api-key $g
 
 ## Build the docker image
 ```powershell
-$version="1.0.3"
+$version="1.0.4"
 $env:GH_OWNER="RafaelJCamara"
 $env:GH_PAT="[PERSONAL ACCESS TOKEN HERE]"
 
@@ -24,7 +24,9 @@ docker build --secret id=GH_OWNER --secret id=GH_PAT -t play.catalog:$version .
 
 ## Run the docker image
 ```powershell
-$version="1.0.3"
+$version="1.0.4"
+$cosmosDbConnString="[CONN STRING HERE]"
+$serviceBusConnString="[CONN STRING HERE]"
 
-docker run -it --rm -p 5000:5000 --name catalog -e MongoDbSettings__Host=mongo -e RabbitMQSettings__Host=rabbitmq --network playinfra_default play.catalog:$version
+docker run -it --rm -p 5000:5000 --name catalog -e MongoDbSettings__ConnectionString=$cosmosDbConnString -e ServiceBusSettings__ConnectionString=$serviceBusConnString -e ServiceSettings__MessageBroker="SERVICEBUS" play.catalog:$version
 ```

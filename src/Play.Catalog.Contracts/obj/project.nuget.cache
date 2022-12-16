@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jP0TF8HqS38N1cRmwh0rRDURVCAfpj02tluHeTyHBIS+UNE4/rqKaJjxbRuIzrNCaE8dHQqUGFRaZVwR8jrncg==",
+  "dgSpecHash": "EIhab6Xd3zrhMS6CDQ3oh5TtdmxI5rr0xJHd6C33Uv2Ftz3mezpTrw98gNLmX0/hX6v1RIWYHAmEtf1nSYJi+w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rafael\\Documents\\Projects\\DotnetMicroservices\\Play.Catalog\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj",
+  "projectFilePath": "/Users/rafaelcamara/Documents/Projects/DotnetMicroservices/Play.Catalog/src/Play.Catalog.Contracts/Play.Catalog.Contracts.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

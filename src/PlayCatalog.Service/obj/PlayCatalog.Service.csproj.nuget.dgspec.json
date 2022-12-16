@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rafael\\Documents\\Projects\\DotnetMicroservices\\Play.Catalog\\src\\PlayCatalog.Service\\PlayCatalog.Service\\PlayCatalog.Service.csproj": {}
+    "/Users/rafaelcamara/Documents/Projects/DotnetMicroservices/Play.Catalog/src/PlayCatalog.Service/PlayCatalog.Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rafael\\Documents\\Projects\\DotnetMicroservices\\Play.Catalog\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj": {
+    "/Users/rafaelcamara/Documents/Projects/DotnetMicroservices/Play.Catalog/src/Play.Catalog.Contracts/Play.Catalog.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rafael\\Documents\\Projects\\DotnetMicroservices\\Play.Catalog\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj",
+        "projectUniqueName": "/Users/rafaelcamara/Documents/Projects/DotnetMicroservices/Play.Catalog/src/Play.Catalog.Contracts/Play.Catalog.Contracts.csproj",
         "projectName": "Play.Catalog.Contracts",
-        "projectPath": "C:\\Users\\Rafael\\Documents\\Projects\\DotnetMicroservices\\Play.Catalog\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj",
-        "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rafael\\Documents\\Projects\\DotnetMicroservices\\Play.Catalog\\src\\Play.Catalog.Contracts\\obj\\",
+        "projectPath": "/Users/rafaelcamara/Documents/Projects/DotnetMicroservices/Play.Catalog/src/Play.Catalog.Contracts/Play.Catalog.Contracts.csproj",
+        "packagesPath": "/Users/rafaelcamara/.nuget/packages/",
+        "outputPath": "/Users/rafaelcamara/Documents/Projects/DotnetMicroservices/Play.Catalog/src/Play.Catalog.Contracts/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/rafaelcamara/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://nuget.pkg.github.com/RafaelJCamara/index.json": {}
         },
@@ -55,28 +53,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Rafael\\Documents\\Projects\\DotnetMicroservices\\Play.Catalog\\src\\PlayCatalog.Service\\PlayCatalog.Service\\PlayCatalog.Service.csproj": {
+    "/Users/rafaelcamara/Documents/Projects/DotnetMicroservices/Play.Catalog/src/PlayCatalog.Service/PlayCatalog.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rafael\\Documents\\Projects\\DotnetMicroservices\\Play.Catalog\\src\\PlayCatalog.Service\\PlayCatalog.Service\\PlayCatalog.Service.csproj",
+        "projectUniqueName": "/Users/rafaelcamara/Documents/Projects/DotnetMicroservices/Play.Catalog/src/PlayCatalog.Service/PlayCatalog.Service.csproj",
         "projectName": "PlayCatalog.Service",
-        "projectPath": "C:\\Users\\Rafael\\Documents\\Projects\\DotnetMicroservices\\Play.Catalog\\src\\PlayCatalog.Service\\PlayCatalog.Service\\PlayCatalog.Service.csproj",
-        "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rafael\\Documents\\Projects\\DotnetMicroservices\\Play.Catalog\\src\\PlayCatalog.Service\\PlayCatalog.Service\\obj\\",
+        "projectPath": "/Users/rafaelcamara/Documents/Projects/DotnetMicroservices/Play.Catalog/src/PlayCatalog.Service/PlayCatalog.Service.csproj",
+        "packagesPath": "/Users/rafaelcamara/.nuget/packages/",
+        "outputPath": "/Users/rafaelcamara/Documents/Projects/DotnetMicroservices/Play.Catalog/src/PlayCatalog.Service/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/rafaelcamara/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://nuget.pkg.github.com/RafaelJCamara/index.json": {}
         },
@@ -84,8 +80,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Rafael\\Documents\\Projects\\DotnetMicroservices\\Play.Catalog\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj": {
-                "projectPath": "C:\\Users\\Rafael\\Documents\\Projects\\DotnetMicroservices\\Play.Catalog\\src\\Play.Catalog.Contracts\\Play.Catalog.Contracts.csproj"
+              "/Users/rafaelcamara/Documents/Projects/DotnetMicroservices/Play.Catalog/src/Play.Catalog.Contracts/Play.Catalog.Contracts.csproj": {
+                "projectPath": "/Users/rafaelcamara/Documents/Projects/DotnetMicroservices/Play.Catalog/src/Play.Catalog.Contracts/Play.Catalog.Contracts.csproj"
               }
             }
           }
@@ -102,7 +98,7 @@
           "dependencies": {
             "Play.Common": {
               "target": "Package",
-              "version": "[1.0.6, )"
+              "version": "[1.0.8, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -127,7 +123,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
         }
       }
     }
